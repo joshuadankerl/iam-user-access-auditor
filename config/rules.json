@@ -1,0 +1,4 @@
+{
+	"max_roles": 4,
+	"priveleged_roles": ["Admin", "Domain_Admin"]
+}
