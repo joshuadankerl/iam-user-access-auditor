@@ -1,0 +1,32 @@
+user_id,full_name,email,department,branch,job_title,manager,roles,account_status,last_login
+U1001,Alice Johnson,alice.johnson@contoso-demo.com,IT,Tampa,IT Director,U1020,Admin;Security_Analyst,active,2026-10-17
+U1002,Brian Carter,brian.carter@contoso-demo.com,IT,Tampa,Systems Administrator,U1001,Admin,active,2026-10-18
+U1003,Chloe Nguyen,chloe.nguyen@contoso-demo.com,IT,Orlando,Help Desk Technician,U1001,Helpdesk,active,2026-10-16
+U1004,Maria Lopez,maria.lopez@contoso-demo.com,Finance,Miami,Accounts Payable Analyst,U1010,Finance_Viewer;AP_Approver,active,2026-10-15
+U1005,Ethan Brooks,ethan.brooks@contoso-demo.com,Finance,Miami,Staff Accountant,U1010,Finance_Viewer;Finance_Editor,active,2026-10-17
+U1006,Fiona Ramirez,fiona.ramirez@contoso-demo.com,HR,Tampa,HR Generalist,U1012,HR_Viewer;HR_Editor,active,2026-10-14
+U1007,George Patel,george.patel@contoso-demo.com,Sales,Orlando,Account Executive,U1014,CRM_User,active,2026-10-18
+U1008,Hannah Wu,hannah.wu@contoso-demo.com,IT,Remote,Network Engineer,U1001,Network_Engineer;Admin,disabled,2026-06-02
+U1009,Isaac Turner,isaac.turner@contoso-demo.com,Operations,Tampa,Warehouse Associate,U1016,Ops_User,active,2026-10-16
+U1010,Julia Kensington,julia.kensington@contoso-demo.com,Finance,Miami,Finance Manager,U1020,Finance_Viewer;Finance_Editor;AP_Approver,active,2026-10-18
+U1011,Daniel Kim,daniel.kim@contoso-demo.com,Sales,Orlando,Sales Representative,U1014,CRM_User,active,2026-10-17
+U1012,Karen Doyle,karen.doyle@contoso-demo.com,HR,Tampa,HR Manager,U1020,HR_Viewer;HR_Editor;Payroll_Admin,active,2026-10-15
+U1013,Liam O'Connor,,Operations,Tampa,Logistics Analyst,U1016,Ops_User,active,2026-10-13
+U1014,Monica Reyes,monica.reyes@contoso-demo.com,Sales,Orlando,Sales Manager,U1020,CRM_User;CRM_Manager,active,2026-10-18
+U1015,Nathan Brooks,nathan.brooks@contoso-demo.com,Sales,Miami,Account Executive,U1014,CRM_User,disabled,2026-03-11
+U1016,Olivia Grant,olivia.grant@contoso-demo.com,Operations,Tampa,Operations Manager,U1020,Ops_User;Inventory_Manager,active,2026-10-17
+U1017,Peter Zhang,peter.zhang@contoso-demo.com,,Remote,Contractor,U1001,Helpdesk,active,2026-10-12
+U1018,Quinn Adams,quinn.adams@contoso-demo.com,Sales,Remote,Sales Intern,U1014,CRM_User;Admin,active,2026-10-16
+U1019,Maria Lopez,maria.lopez@contoso-demo.com,Finance,Miami,Accounts Payable Analyst,U1010,Finance_Viewer,active,2026-09-01
+U1020,Robert Sinclair,robert.sinclair@contoso-demo.com,Finance,Tampa,CFO,,Finance_Viewer;Finance_Editor,active,2026-10-18
+U1021,Sara Ahmed,sara.ahmed@contoso-demo.com,Legal,Tampa,Paralegal,U1020,Legal_Viewer,active,2026-10-15
+U1022,Tyler Moore,tyler.moore@contoso-demo.com,Finance,Orlando,Payroll Specialist,U1010,Finance_Editor,disabled,2026-08-20
+U1023,Uma Desai,uma.desai@contoso-demo.com,Sales,Orlando,Sales Representative,U1014,CRM_User;Domain_Admin,active,2026-10-17
+U1024,Victor Hale,victor.hale@contoso-demo.com,Finance,Miami,Senior Accountant,U1010,AP_Approver;Payment_Releaser,active,2026-10-16
+U1025,Wendy Clark,wendy.clark@contoso-demo.com,HR,Remote,HR Coordinator,U1012,HR_Viewer;Admin,active,2026-10-14
+U1026,Xavier Ortiz,xavier.ortiz@contoso-demo.com,IT,Tampa,Security Analyst,U1001,Security_Analyst;Helpdesk;Network_Engineer;Finance_Viewer;HR_Viewer;CRM_User,active,2026-10-18
+U1027,Daniel Kim,dkim@contoso-demo.com,Sales,Orlando,Sales Representative,U1014,CRM_User,active,2026-10-10
+U1028,Yasmine Hart,yasmine.hart@contoso-demo.com,Legal,Tampa,Legal Counsel,U1020,Legal_Viewer;Contract_Editor,active,2026-02-14
+U1029,Zachary Bell,zachary.bell@contoso-demo.com,Operations,Orlando,Inventory Clerk,U1016,Ops_User,,2026-10-12
+U1030,Amber Stone,amber.stone@contoso-demo.com,Operations,Miami,Logistics Coordinator,U1016,,disabled,2026-05-30
+U1031,Henry Walsh,henry.walsh@contoso-demo.com,IT,Orlando,Help Desk Technician,U1001,Helpdesk,active,2026-01-09
