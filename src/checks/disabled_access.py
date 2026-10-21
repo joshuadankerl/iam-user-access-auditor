@@ -3,7 +3,7 @@ import csv
 '''
 Function for checking if any disabled accounts have roles/permissions
 '''
-def inactiveRoles(path):
+def inactive_roles(path):
 
     #   Opens CSV file in read-only mode
     with (open(

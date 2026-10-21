@@ -3,11 +3,11 @@ import csv
 '''
 Function for comparing values in the same column of a CSV file
 '''
-def findDuplicate(columnValue, path):
+def find_duplicate(columnValue, csvPath):
 
         #   Open the CSV File in read-only mode
         with open(
-                path,
+                csvPath,
                 "r"
         ) as csvFile:
 

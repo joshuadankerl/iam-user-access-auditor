@@ -3,8 +3,6 @@
 	"no_duplicate_fields": ["user_id","email"],
 	"privileged_roles": ["Admin", "Domain_Admin", "Payroll_Admin"],
 	"required_fields": ["user_id", "full_name", "email", "department", "account_status"],
-	"valid_statuses" : ["active", "disabled"],
-
 	"department_roles": {
 		"IT": ["Admin", "Domain_Admin", "Helpdesk", "Network_Engineer", "Security_Analyst"],
 		"Finance": ["Finance_Viewer", "Finance_Editor", "AP_Approver", "Payment_Releaser"],
