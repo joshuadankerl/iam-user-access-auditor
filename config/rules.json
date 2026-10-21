@@ -1,5 +1,6 @@
 {
 	"max_roles": 4,
+	"no_duplicate_fields": ["user_id","email"],
 	"privileged_roles": ["Admin", "Domain_Admin", "Payroll_Admin"],
 	"required_fields": ["user_id", "full_name", "email", "department", "account_status"],
 	"valid_statuses" : ["active", "disabled"],

@@ -18,7 +18,7 @@ U1016,Olivia Grant,olivia.grant@contoso-demo.com,Operations,Tampa,Operations Man
 U1017,Peter Zhang,peter.zhang@contoso-demo.com,,Remote,Contractor,U1001,Helpdesk,active,2026-10-12
 U1018,Quinn Adams,quinn.adams@contoso-demo.com,Sales,Remote,Sales Intern,U1014,CRM_User;Admin,active,2026-10-16
 U1019,Maria Lopez,maria.lopez@contoso-demo.com,Finance,Miami,Accounts Payable Analyst,U1010,Finance_Viewer,active,2026-09-01
-U1020,Robert Sinclair,robert.sinclair@contoso-demo.com,Finance,Tampa,CFO,,Finance_Viewer;Finance_Editor,active,2026-10-18
+U1021,Robert Sinclair,robert.sinclair@contoso-demo.com,Finance,Tampa,CFO,,Finance_Viewer;Finance_Editor,active,2026-10-18
 U1021,Sara Ahmed,sara.ahmed@contoso-demo.com,Legal,Tampa,Paralegal,U1020,Legal_Viewer,active,2026-10-15
 U1022,Tyler Moore,tyler.moore@contoso-demo.com,Finance,Orlando,Payroll Specialist,U1010,Finance_Editor,disabled,2026-08-20
 U1023,Uma Desai,uma.desai@contoso-demo.com,Sales,Orlando,Sales Representative,U1014,CRM_User;Domain_Admin,active,2026-10-17
