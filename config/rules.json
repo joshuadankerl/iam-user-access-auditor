@@ -1,4 +1,5 @@
 {
+	"input_file": "data/sample_users.csv",
 	"max_roles": 4,
 	"no_duplicate_fields": ["user_id","email"],
 	"privileged_roles": ["Admin", "Domain_Admin", "Payroll_Admin"],

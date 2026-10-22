@@ -7,7 +7,6 @@ import json
 
 outputPath = "output.txt"
 jsonPath = "config/rules.json"
-csvPath = "data/sample_users.csv"
 
 #   Simple function for adding newlines between rules
 def end_space():
@@ -32,6 +31,7 @@ Test 1: Testing for the same results in unique fields (i.e., email, user ID, etc
 #   Opening the json file
 with open(jsonPath, "r") as jsonFile:
     jsonData = json.load(jsonFile)  #   Assigns json file to a dictionary
+    csvPath = jsonData["input_file"]    #   Loads csv file
 
     #   Checks for duplicate in each field defined in the JSON
     for field in jsonData["no_duplicate_fields"]:
