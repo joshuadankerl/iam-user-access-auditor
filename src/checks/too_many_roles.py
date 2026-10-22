@@ -22,10 +22,12 @@ def excess_roles(csvPath, maxRoles):
                     "output.txt",
                     "a"
             ) as outputFile:
+
                 #   Writes the UID and num roles to output txt
-                outputFile.write(
-                    f"\n{row["user_id"]} has more than {maxRoles} roles\n"
-                )
+                for user_id, numRoles in users.items():
+                    outputFile.write(
+                        f"{user_id} has more than {maxRoles} roles, with {numRoles} active roles.\n"
+                    )
     return
 
 

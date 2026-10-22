@@ -48,10 +48,10 @@ def find_duplicate(columnValue, csvPath):
             if duplicates:  #   If duplicate found
                 for value, ids in duplicates.items():   #   grabs email, and user_id(s)
                     outputFile.write(
-                        f"{columnValue.title()} '{value}' shared by: {', '.join(ids)}\n\n"
+                        f"{columnValue.title()} '{value}' shared by: {' and '.join(ids)}\n"
                     )
             else:   #   If no duplicate is found
-                outputFile.write(f"No duplicate {columnValue}s found.\n\n")
+                outputFile.write(f"No duplicate {columnValue}s found.\n")
 
         csvFile.close()
         outputFile.close()

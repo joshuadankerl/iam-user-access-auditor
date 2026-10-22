@@ -32,11 +32,11 @@ def inactive_roles(path):
         ) as outputFile:
             if inactiveAccounts:
                 outputFile.write(
-                    f"Inactive account(s) found with active permissions:\n{', '.join(inactiveAccounts)}\n\n"
+                    f"Inactive account(s) found with active permissions: {', '.join(inactiveAccounts)}\n"
                 )
             elif blankAccounts:
                 outputFile.write(
-                    f"Account(s) found with no status:\n {', '.join(blankAccounts)}\n\n"
+                    f"Account(s) found with no status: {', '.join(blankAccounts)}\n"
                 )
             else:
-                outputFile.write(f"No inactive account(s) found with permissions.\n\n")
+                outputFile.write(f"No inactive account(s) found with permissions.\n")

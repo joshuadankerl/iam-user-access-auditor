@@ -1,12 +1,18 @@
-User_Id 'U1021' shared by: U1021, U1021
+No duplicate user_ids found.
+Email 'maria.lopez@contoso-demo.com' shared by: U1004 and U1019
 
-Email 'maria.lopez@contoso-demo.com' shared by: U1004, U1019
-
-Inactive account(s) found with active permissions:
-U1008, U1015, U1022
+Inactive account(s) found with active permissions: U1008, U1015, U1022
 
 User U1013 missing required field(s): email
 User U1017 missing required field(s): department
 User U1029 missing required field(s): account_status
-U1031 has more than 4 roles
+
+U1026 has more than 4 roles, with 6 active roles.
+
+User U1018 in Sales has excess role of: Admin
+User U1023 in Sales has excess role of: Domain_Admin
+User U1025 in HR has excess role of: Admin
+User U1026 in IT has excess role of: Finance_Viewer
+User U1026 in IT has excess role of: HR_Viewer
+User U1026 in IT has excess role of: CRM_User
 
