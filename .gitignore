@@ -222,3 +222,7 @@ __marimo__/
 # Generated audit reports (one sample)
 reports/*
 !reports/sample_report.*
+
+# Local test output and IDE settings
+output.txt
+.idea/
